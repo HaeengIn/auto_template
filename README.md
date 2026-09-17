@@ -1,8 +1,8 @@
 # auto_template
 Auto-configures FastAPI's Jinja2Templates with canonical URL and static file cache-busting on import.
 
-[![PyPI version](https://img.shields.io/pypi/v/auto_template.svg)](https://pypi.org/project/auto_template/)
-[![Python versions](https://img.shields.io/pypi/pyversions/auto_template.svg)](https://pypi.org/project/auto_template/)
+[![PyPI version](https://img.shields.io/pypi/v/auto-template.svg)](https://pypi.org/project/auto-template/)
+[![Python versions](https://img.shields.io/pypi/pyversions/auto-template.svg)](https://pypi.org/project/auto-template/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## What does this package do?
