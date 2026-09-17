@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto_template"
+version = "1.0.0"
+description = "Automatically assigns versions to static files and completes the canonical values."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.100",
+]
+authors = [{ name = "HaeengIn", email = "haeengin@gmail.com" }]
+license = "MIT"
+license-files = ["LICENSE"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/HaeengIn/auto_template"
+
+[tool.setuptools.packages.find]
+where = ["src"]
